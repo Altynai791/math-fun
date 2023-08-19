@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: peachpuff;
+}
+.score-info {
+    border: 5px solid palevioletred;
+    padding-left: 5px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+.score-text {
+    font-size: 36px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.inner-container {
+    display: flex;
+    align-items: center;
+}
+.card {
+    border: 5px solid palevioletred;
+    width: 260px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 40px;
+}
+.equation {
+    font-size: 40px;
+}
+
+button {
+    height: 45px;
+    width: 70px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 25px;
+}
+.btn-wrong {
+    background-color: #d51919;
+    color: white;
+}
+.btn-right {
+    background-color: #2caf2c;
+    color: white;
+}
+/*with the help of functions and cycles*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
