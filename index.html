@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <title>Math cards</title>
 
@@ -10,12 +10,13 @@
 <body>
 <div class="container">
     <div class="score-info">
-        <p class="score-text" id="score">Your score is:</p>
+        <p class="score-text" id="score">Your score is: 0</p>
     </div>
     <div class="inner-container">
         <button class="btn-wrong" onclick="handleResponse(false)">Wrong</button>
         <div class="card">
-            <p class="equation" id="equation">5*2=10</p>
+            <p class="equation" id="equation"><script>generateEquation()</script></p>
+            <button class="btn-start" id="btn-start" onclick="start()">Start</button>
         </div>
         <button class="btn-right" onclick="handleResponse(true)">Right</button>
     </div>
